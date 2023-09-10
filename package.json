@@ -1,15 +1,15 @@
 {
-  "name": "@pascal-giguere/starter-node",
+  "name": "mastodon-quebec-bots",
   "version": "1.0.0",
   "author": "Pascal Giguère",
-  "repository": "https://github.com/pascal-giguere/starter-node",
+  "repository": "https://github.com/pascal-giguere/mastodon-quebec-bots",
   "private": true,
   "license": "UNLICENSED",
   "packageManager": "yarn@3.6.3",
   "engines": {
     "node": ">=18",
     "npm": "please-use-yarn",
-    "yarn": "3.3.0"
+    "yarn": "3.6.3"
   },
   "main": "dist/index.js",
   "devDependencies": {
