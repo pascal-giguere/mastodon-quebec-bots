@@ -12,6 +12,10 @@
     "yarn": "3.6.3"
   },
   "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.4",
     "@types/node": "^18.17.15",
@@ -23,5 +27,10 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "env-var": "^7.4.1",
+    "mastofeed": "^0.2.0"
   }
 }
