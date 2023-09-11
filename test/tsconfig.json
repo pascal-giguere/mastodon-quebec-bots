@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "types": ["node", "jest"],
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "resolveJsonModule": true
-  }
-}
