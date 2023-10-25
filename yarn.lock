@@ -127,12 +127,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/oauth@npm:^0.9.0":
-  version: 0.9.2
-  resolution: "@types/oauth@npm:0.9.2"
+"@types/oauth@npm:^0.9.2":
+  version: 0.9.3
+  resolution: "@types/oauth@npm:0.9.3"
   dependencies:
     "@types/node": "*"
-  checksum: defd4fb2a20912f74d53212cec31161cd8589622f241a5cae9fcdec3f024c71e316f5d0e40dc00934de4a937b259473c2ac6fad78de1be79b7ae7dc4b5814ff0
+  checksum: f3f2acd903dc844351028713d31e1fd8bfeb855876813bd01b4724ab2a7a62dfc78e1762d86bb8345678e0e3e8ca73f1d513849f1eaf8a4c769e986e08a75cca
   languageName: node
   linkType: hard
 
@@ -350,25 +350,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:1.4.0":
-  version: 1.4.0
-  resolution: "axios@npm:1.4.0"
+"axios@npm:1.5.1, axios@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "axios@npm:1.5.1"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 7fb6a4313bae7f45e89d62c70a800913c303df653f19eafec88e56cea2e3821066b8409bc68be1930ecca80e861c52aa787659df0ffec6ad4d451c7816b9386b
-  languageName: node
-  linkType: hard
-
-"axios@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "axios@npm:1.5.0"
-  dependencies:
-    follow-redirects: ^1.15.0
-    form-data: ^4.0.0
-    proxy-from-env: ^1.1.0
-  checksum: e7405a5dbbea97760d0e6cd58fecba311b0401ddb4a8efbc4108f5537da9b3f278bde566deb777935a960beec4fa18e7b8353881f2f465e4f2c0e949fead35be
+  checksum: 4444f06601f4ede154183767863d2b8e472b4a6bfc5253597ed6d21899887e1fd0ee2b3de792ac4f8459fe2e359d2aa07c216e45fd8b9e4e0688a6ebf48a5a8d
   languageName: node
   linkType: hard
 
@@ -458,10 +447,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.9":
-  version: 1.11.9
-  resolution: "dayjs@npm:1.11.9"
-  checksum: a4844d83dc87f921348bb9b1b93af851c51e6f71fa259604809cfe1b49d1230e6b0212dab44d1cb01994c096ad3a77ea1cf18fa55154da6efcc9d3610526ac38
+"dayjs@npm:^1.11.10":
+  version: 1.11.10
+  resolution: "dayjs@npm:1.11.10"
+  checksum: a6b5a3813b8884f5cd557e2e6b7fa569f4c5d0c97aca9558e38534af4f2d60daafd3ff8c2000fed3435cfcec9e805bcebd99f90130c6d1c5ef524084ced588c4
+  languageName: node
+  linkType: hard
+
+"death@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "death@npm:1.1.0"
+  checksum: 8010ba9a320752f9580eb474985ed214572c0595cf83e92859e3c5a014a01fc8e8f2f2908b80b5f8bca9cb3f94adb546cf55810df6b80e282452e355cdce5aaa
   languageName: node
   linkType: hard
 
@@ -836,7 +832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"https-proxy-agent@npm:^7.0.1":
+"https-proxy-agent@npm:^7.0.2":
   version: 7.0.2
   resolution: "https-proxy-agent@npm:7.0.2"
   dependencies:
@@ -938,6 +934,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"isomorphic-ws@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "isomorphic-ws@npm:5.0.0"
+  peerDependencies:
+    ws: "*"
+  checksum: e20eb2aee09ba96247465fda40c6d22c1153394c0144fa34fe6609f341af4c8c564f60ea3ba762335a7a9c306809349f9b863c8beedf2beea09b299834ad5398
+  languageName: node
+  linkType: hard
+
 "js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
@@ -1012,45 +1017,47 @@ __metadata:
     "@types/node": ^18.17.15
     "@typescript-eslint/eslint-plugin": ^6.6.0
     "@typescript-eslint/parser": ^6.6.0
+    death: ^1.1.0
     dotenv: ^16.3.1
     env-var: ^7.4.1
     eslint: ^8.49.0
-    mastofeed: ^0.2.0
+    mastofeed: ^0.6.4
     prettier: ^3.0.3
     typescript: ^5.2.2
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "mastofeed@npm:0.2.0"
+"mastofeed@npm:^0.6.4":
+  version: 0.6.4
+  resolution: "mastofeed@npm:0.6.4"
   dependencies:
-    axios: ^1.5.0
+    axios: ^1.5.1
     lodash: ^4.17.21
-    megalodon: ^7.0.0
+    megalodon: ^8.1.6
     rss-parser: ^3.13.0
-  checksum: ad561fd348a771c2aff19b585de690732e2b23b017c69f732785f8b61c6ce68084269f4b5a30ea8a7cd85bfa31788d45a0f0d17c73a773d4efb8b6d7d564441b
+  checksum: 9778d34cae3d9eba44d49b223326d9c37b897d6f687a12eb598debbcc49118d7e813e5dfac3f53d4ea74fdd5e5f3dbe38472af3116d27b408c0df97cd8987a42
   languageName: node
   linkType: hard
 
-"megalodon@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "megalodon@npm:7.0.0"
+"megalodon@npm:^8.1.6":
+  version: 8.1.6
+  resolution: "megalodon@npm:8.1.6"
   dependencies:
-    "@types/oauth": ^0.9.0
+    "@types/oauth": ^0.9.2
     "@types/ws": ^8.5.5
-    axios: 1.4.0
-    dayjs: ^1.11.9
+    axios: 1.5.1
+    dayjs: ^1.11.10
     form-data: ^4.0.0
-    https-proxy-agent: ^7.0.1
+    https-proxy-agent: ^7.0.2
+    isomorphic-ws: ^5.0.0
     oauth: ^0.10.0
     object-assign-deep: ^0.4.0
     parse-link-header: ^2.0.0
-    socks-proxy-agent: ^8.0.1
-    typescript: 5.1.6
-    uuid: ^9.0.0
-    ws: 8.13.0
-  checksum: e5dd35574d70b662b3682e65149fe02a08473b11280de3e42b4b5d81b7183820515aeefffcb44a110e30fbe861ab93e57c1904a7a7b122ae4af29c9d3aac530f
+    socks-proxy-agent: ^8.0.2
+    typescript: 5.2.2
+    uuid: ^9.0.1
+    ws: 8.14.2
+  checksum: 3d2e19c3b553ed7fe1278cca75b3b5b3c9ae699baba8a49ce377f909ddc39b4a51bca3499ffa3ee87341c5563a502f1da46713816e443ec38436703c4de6346b
   languageName: node
   linkType: hard
 
@@ -1347,7 +1354,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"socks-proxy-agent@npm:^8.0.1":
+"socks-proxy-agent@npm:^8.0.2":
   version: 8.0.2
   resolution: "socks-proxy-agent@npm:8.0.2"
   dependencies:
@@ -1434,17 +1441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.1.6":
-  version: 5.1.6
-  resolution: "typescript@npm:5.1.6"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^5.2.2":
+"typescript@npm:5.2.2, typescript@npm:^5.2.2":
   version: 5.2.2
   resolution: "typescript@npm:5.2.2"
   bin:
@@ -1454,17 +1451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>":
-  version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.2.2#~builtin<compat/typescript>, typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
   resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
@@ -1483,12 +1470,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "uuid@npm:9.0.0"
+"uuid@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "uuid@npm:9.0.1"
   bin:
     uuid: dist/bin/uuid
-  checksum: 8dd2c83c43ddc7e1c71e36b60aea40030a6505139af6bee0f382ebcd1a56f6cd3028f7f06ffb07f8cf6ced320b76aea275284b224b002b289f89fe89c389b028
+  checksum: 39931f6da74e307f51c0fb463dc2462807531dc80760a9bff1e35af4316131b4fc3203d16da60ae33f07fdca5b56f3f1dd662da0c99fea9aaeab2004780cc5f4
   languageName: node
   linkType: hard
 
@@ -1510,9 +1497,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:8.13.0":
-  version: 8.13.0
-  resolution: "ws@npm:8.13.0"
+"ws@npm:8.14.2":
+  version: 8.14.2
+  resolution: "ws@npm:8.14.2"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ">=5.0.2"
@@ -1521,7 +1508,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 53e991bbf928faf5dc6efac9b8eb9ab6497c69feeb94f963d648b7a3530a720b19ec2e0ec037344257e05a4f35bd9ad04d9de6f289615ffb133282031b18c61c
+  checksum: 3ca0dad26e8cc6515ff392b622a1467430814c463b3368b0258e33696b1d4bed7510bc7030f7b72838b9fdeb8dbd8839cbf808367d6aae2e1d668ce741d4308b
   languageName: node
   linkType: hard
 
