@@ -24,6 +24,7 @@ export const laPresseFeed = new Mastofeed({
             cinema: 'Cinéma',
             contexte: 'Contexte',
             debats: 'Débats',
+            dialogue: 'Dialogue',
             gourmand: 'Gourmand',
             international: 'International',
             maison: 'Maison',
