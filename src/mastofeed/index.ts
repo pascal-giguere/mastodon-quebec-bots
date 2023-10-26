@@ -1,10 +1,11 @@
 import { Mastofeed } from 'mastofeed';
 import { laPresseFeed } from './laPresse';
 
-const feeds: Mastofeed[] = [laPresseFeed];
+const allFeeds: Mastofeed[] = [laPresseFeed];
 
-export async function runFeeds(): Promise<void> {
-  for (const feed of feeds) {
-    await feed.run();
+export async function publishAllFeeds(): Promise<void> {
+  for (const feed of allFeeds) {
+    await feed.publish();
   }
+  console.log(`Successfully published ${allFeeds.length} feeds.`);
 }
