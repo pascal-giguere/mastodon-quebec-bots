@@ -1,10 +1,13 @@
 import { Mastofeed, UppercaseTransform, MapTransform, GuillemetsTransform } from 'mastofeed';
-import { MASTODON_ACCESS_TOKEN } from '../utils/env';
+import env from 'env-var';
+import { MASTODON_INSTANCE_URL } from '../utils/env';
+
+const LAPRESSE_ACCESS_TOKEN = env.get('LAPRESSE_ACCESS_TOKEN').required().asString();
 
 export const laPresseFeed = new Mastofeed({
   mastodon: {
-    instanceUrl: 'https://staging.mastodon.quebec',
-    accessToken: MASTODON_ACCESS_TOKEN,
+    instanceUrl: MASTODON_INSTANCE_URL,
+    accessToken: LAPRESSE_ACCESS_TOKEN,
   },
   rss: {
     feedUrl: 'https://www.lapresse.ca/manchettes/rss',
