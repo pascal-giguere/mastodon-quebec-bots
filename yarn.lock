@@ -832,6 +832,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"html-entities@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "html-entities@npm:2.4.0"
+  checksum: 25bea32642ce9ebd0eedc4d24381883ecb0335ccb8ac26379a0958b9b16652fdbaa725d70207ce54a51db24103436a698a8e454397d3ba8ad81460224751f1dc
+  languageName: node
+  linkType: hard
+
 "https-proxy-agent@npm:^7.0.2":
   version: 7.0.2
   resolution: "https-proxy-agent@npm:7.0.2"
@@ -1021,21 +1028,22 @@ __metadata:
     dotenv: ^16.3.1
     env-var: ^7.4.1
     eslint: ^8.49.0
-    mastofeed: ^1.0.0
+    mastofeed: ^1.1.0
     prettier: ^3.0.3
     typescript: ^5.2.2
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "mastofeed@npm:1.0.0"
+"mastofeed@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "mastofeed@npm:1.1.0"
   dependencies:
     axios: ^1.5.1
+    html-entities: ^2.4.0
     lodash: ^4.17.21
     megalodon: ^8.1.6
     rss-parser: ^3.13.0
-  checksum: f4837c884ba9eee2b3d92758b0c35dbc09dc980e340ca6f8559c0f03f16e06cf14c647637888061618acf603dae5c1d9cdc2c8f23c160945098fc4b279ce74b3
+  checksum: 82d1bf1da1013e1c2ba73b25d38d3bc58a444492190bc8ff46f25b996cc0c1cbf7d8d35fe53fef20af57f2572dcb4512bcb5d4e922db2ad0288eb135f2ab85c6
   languageName: node
   linkType: hard
 
