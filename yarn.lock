@@ -394,7 +394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -1028,22 +1028,23 @@ __metadata:
     dotenv: ^16.3.1
     env-var: ^7.4.1
     eslint: ^8.49.0
-    mastofeed: ^1.1.0
+    mastofeed: ^1.2.5
     prettier: ^3.0.3
     typescript: ^5.2.2
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "mastofeed@npm:1.1.0"
+"mastofeed@npm:^1.2.5":
+  version: 1.2.5
+  resolution: "mastofeed@npm:1.2.5"
   dependencies:
     axios: ^1.5.1
+    chalk: ^4.1.2
     html-entities: ^2.4.0
     lodash: ^4.17.21
     megalodon: ^8.1.6
     rss-parser: ^3.13.0
-  checksum: 82d1bf1da1013e1c2ba73b25d38d3bc58a444492190bc8ff46f25b996cc0c1cbf7d8d35fe53fef20af57f2572dcb4512bcb5d4e922db2ad0288eb135f2ab85c6
+  checksum: 0ed533803f9ccf771d6062cb76f2615abfa85b799caa94214504d8a221c79f3ab1c7be7eec230a32e1fff7de16871383b3c56e2af7c9a5a119b9445f44e44b59
   languageName: node
   linkType: hard
 
