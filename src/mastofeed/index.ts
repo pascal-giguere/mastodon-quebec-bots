@@ -2,8 +2,9 @@ import { Mastofeed } from 'mastofeed';
 import { laPresseFeed } from './laPresse';
 import { leDevoirFeed } from './leDevoir';
 import { radioCanadaFeed } from './radioCanada';
+import { lActualiteFeed } from './lActualite';
 
-const allFeeds: Mastofeed[] = [laPresseFeed, leDevoirFeed, radioCanadaFeed];
+const allFeeds: Mastofeed[] = [laPresseFeed, leDevoirFeed, radioCanadaFeed, lActualiteFeed];
 
 export async function syncAllFeeds(): Promise<void> {
   console.log(`Syncing ${allFeeds.length} feeds...`);
