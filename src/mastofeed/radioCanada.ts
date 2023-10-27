@@ -17,6 +17,7 @@ export const radioCanadaFeed = new Mastofeed({
       description: { path: 'content', transforms: [new GuillemetsTransform()] },
       linkUrl: { path: 'link' },
     },
+    maxSyncedItems: 8,
   },
   logging: {
     level: LOG_LEVEL,

@@ -41,6 +41,7 @@ export const laPresseFeed = new Mastofeed({
       author: { path: 'dc:creator' },
       linkUrl: { path: 'link' },
     },
+    maxSyncedItems: 8,
   },
   logging: {
     level: LOG_LEVEL,

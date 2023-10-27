@@ -19,6 +19,7 @@ export const leDevoirFeed = new Mastofeed({
       author: { path: 'author', regex: '\\(([^\\)]+)\\)' },
       linkUrl: { path: 'link' },
     },
+    maxSyncedItems: 8,
   },
   logging: {
     level: LOG_LEVEL,
