@@ -1,6 +1,6 @@
 import { Mastofeed, UppercaseTransform, MapTransform, GuillemetsTransform } from 'mastofeed';
 import env from 'env-var';
-import { MASTODON_INSTANCE_URL } from '../utils/env';
+import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env';
 
 const LAPRESSE_ACCESS_TOKEN = env.get('LAPRESSE_ACCESS_TOKEN').required().asString();
 
@@ -41,5 +41,9 @@ export const laPresseFeed = new Mastofeed({
       author: { path: 'dc:creator' },
       linkUrl: { path: 'link' },
     },
+  },
+  logging: {
+    level: LOG_LEVEL,
+    prefix: 'La Presse',
   },
 });

@@ -1028,15 +1028,15 @@ __metadata:
     dotenv: ^16.3.1
     env-var: ^7.4.1
     eslint: ^8.49.0
-    mastofeed: ^1.2.5
+    mastofeed: ^1.3.0
     prettier: ^3.0.3
     typescript: ^5.2.2
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^1.2.5":
-  version: 1.2.5
-  resolution: "mastofeed@npm:1.2.5"
+"mastofeed@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "mastofeed@npm:1.3.0"
   dependencies:
     axios: ^1.5.1
     chalk: ^4.1.2
@@ -1044,7 +1044,7 @@ __metadata:
     lodash: ^4.17.21
     megalodon: ^8.1.6
     rss-parser: ^3.13.0
-  checksum: 0ed533803f9ccf771d6062cb76f2615abfa85b799caa94214504d8a221c79f3ab1c7be7eec230a32e1fff7de16871383b3c56e2af7c9a5a119b9445f44e44b59
+  checksum: 979ca7d60b90e0e3c42775d77e5a2b79542db95cae08d818fcded863413b670f5c73f13e51f23d112c30e909fc9df995c0c844a8866c003eaebb29abfb115153
   languageName: node
   linkType: hard
 
