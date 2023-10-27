@@ -4,9 +4,14 @@ import { leDevoirFeed } from './leDevoir';
 
 const allFeeds: Mastofeed[] = [laPresseFeed, leDevoirFeed];
 
-export async function publishAllFeeds(): Promise<void> {
+export async function syncAllFeeds(): Promise<void> {
+  console.log(`Syncing ${allFeeds.length} feeds...`);
   for (const feed of allFeeds) {
-    await feed.publish();
+    try {
+      await feed.sync();
+    } catch (err) {
+      console.error(`Error syncing feed: ${JSON.stringify(err)}`);
+    }
   }
-  console.log(`Successfully published ${allFeeds.length} feeds.`);
+  console.log(`Done syncing ${allFeeds.length} feeds.`);
 }
