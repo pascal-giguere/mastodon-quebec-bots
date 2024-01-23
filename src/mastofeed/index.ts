@@ -12,7 +12,7 @@ export async function syncAllFeeds(): Promise<void> {
     try {
       await feed.sync();
     } catch (err) {
-      console.error(`Error syncing feed: ${JSON.stringify(err)}`);
+      console.error(`Error syncing feed '${feed.rssFeedUrl}': ${JSON.stringify(err, Object.getOwnPropertyNames(err))}`);
     }
   }
   console.log(`Done syncing ${allFeeds.length} feeds.`);
