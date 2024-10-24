@@ -1,11 +1,15 @@
 import { Mastofeed } from 'mastofeed';
+/*
 import { laPresseFeed } from './laPresse';
 import { leDevoirFeed } from './leDevoir';
 import { radioCanadaFeed } from './radioCanada';
 import { lActualiteFeed } from './lActualite';
 import { pivotFeed } from './pivot';
+*/
+import { decrypteursFeed } from './decrypteurs';
 
-const allFeeds: Mastofeed[] = [laPresseFeed, leDevoirFeed, radioCanadaFeed, lActualiteFeed, pivotFeed];
+// const allFeeds: Mastofeed[] = [laPresseFeed, leDevoirFeed, radioCanadaFeed, lActualiteFeed, pivotFeed, decrypteursFeed];
+const allFeeds: Mastofeed[] = [decrypteursFeed];
 
 export async function syncAllFeeds(): Promise<void> {
   console.log(`Syncing ${allFeeds.length} feeds...`);
