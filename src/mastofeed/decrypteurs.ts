@@ -13,7 +13,7 @@ export const decrypteursFeed = new Mastofeed({
     feedUrl: 'https://ohdieux.ligature.ca/rss?programme_id=11099',
     postDef: {
       id: { path: 'guid' },
-      title: { path: 'title', regex: '^[ \\t\\n]+(.*)[ \\t\\n]+$' },
+      title: { path: 'title' },
       description: { path: 'contentSnippet', transforms: [new GuillemetsTransform()] },
       category: { path: 'itunes.duration', transforms: [new AudioSnippetTransform("▶️  Écouter l'épisode")] },
       linkUrl: { path: 'enclosure.url' },
