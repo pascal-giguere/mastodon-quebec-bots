@@ -1,14 +1,15 @@
 {
   "name": "mastodon-quebec-bots",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Pascal Giguère",
   "repository": "https://github.com/pascal-giguere/mastodon-quebec-bots",
   "license": "UNLICENSED",
-  "packageManager": "yarn@3.6.3",
+  "packageManager": "yarn@4.9.1",
+  "type": "module",
   "engines": {
-    "node": ">=18",
+    "node": ">=22",
     "npm": "please-use-yarn",
-    "yarn": "3.6.3"
+    "yarn": "4.9.1"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -17,17 +18,20 @@
     "start": "node ."
   },
   "devDependencies": {
-    "@types/node": "^18.17.15",
-    "@typescript-eslint/eslint-plugin": "^6.6.0",
-    "@typescript-eslint/parser": "^6.6.0",
-    "eslint": "^8.49.0",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
+    "@eslint/js": "^9.25.1",
+    "@types/node": "^22.14.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-import-resolver-typescript": "^4.3.4",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
   },
   "dependencies": {
     "death": "^1.1.0",
-    "dotenv": "^16.3.1",
-    "env-var": "^7.4.1",
-    "mastofeed": "^1.6.2"
+    "dotenv": "^16.5.0",
+    "env-var": "^7.5.0",
+    "mastofeed": "^1.8.0"
   }
 }
