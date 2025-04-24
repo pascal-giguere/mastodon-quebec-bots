@@ -1,6 +1,6 @@
 import { Mastofeed, GuillemetsTransform, AudioSnippetTransform } from 'mastofeed';
 import env from 'env-var';
-import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env';
+import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env.mjs';
 
 const DECRYPTEURS_ACCESS_TOKEN = env.get('DECRYPTEURS_ACCESS_TOKEN').required().asString();
 

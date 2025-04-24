@@ -1,6 +1,6 @@
 import { GuillemetsTransform, Mastofeed } from 'mastofeed';
 import env from 'env-var';
-import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env';
+import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env.mjs';
 
 const RADIOCANADA_ACCESS_TOKEN = env.get('RADIOCANADA_ACCESS_TOKEN').required().asString();
 

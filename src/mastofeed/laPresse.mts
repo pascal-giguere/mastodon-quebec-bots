@@ -1,6 +1,6 @@
 import { Mastofeed, UppercaseTransform, MapTransform, GuillemetsTransform } from 'mastofeed';
 import env from 'env-var';
-import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env';
+import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env.mjs';
 
 const LAPRESSE_ACCESS_TOKEN = env.get('LAPRESSE_ACCESS_TOKEN').required().asString();
 
