@@ -202,9 +202,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pascal-giguere/megalodon@npm:^10.2.0":
-  version: 10.2.0
-  resolution: "@pascal-giguere/megalodon@npm:10.2.0"
+"@pascal-giguere/megalodon@npm:^10.2.2":
+  version: 10.2.2
+  resolution: "@pascal-giguere/megalodon@npm:10.2.2"
   dependencies:
     "@badgateway/oauth2-client": "npm:^2.4.2"
     "@types/ws": "npm:^8.5.13"
@@ -216,7 +216,7 @@ __metadata:
     object-assign-deep: "npm:^0.4.0"
     uuid: "npm:^11.0.3"
     ws: "npm:8.18.0"
-  checksum: 10c0/26dfefd7e75c5c2ba4429d0c8239706895c8deaf6e64a88d5591cdf5f0889c961beb34fa88f6ed608d83d6530dabbc9c51f2fb02e72d25a2e8ef1c2a2730b6d3
+  checksum: 10c0/4e1a189b653a71191c4dd94f85c3139d5ca0d389877a7e7b95ecef8bf53125e636922ea9f5a01396225bed65c191ba5d793668801bd533a032aa70dad955abd4
   languageName: node
   linkType: hard
 
@@ -2079,25 +2079,25 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.2"
     eslint-import-resolver-typescript: "npm:^4.3.4"
     eslint-plugin-import: "npm:^2.31.0"
-    mastofeed: "npm:^1.8.5"
+    mastofeed: "npm:^1.8.6"
     prettier: "npm:^3.5.3"
     typescript: "npm:^5.8.3"
     typescript-eslint: "npm:^8.31.0"
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^1.8.5":
-  version: 1.8.5
-  resolution: "mastofeed@npm:1.8.5"
+"mastofeed@npm:^1.8.6":
+  version: 1.8.6
+  resolution: "mastofeed@npm:1.8.6"
   dependencies:
-    "@pascal-giguere/megalodon": "npm:^10.2.0"
+    "@pascal-giguere/megalodon": "npm:^10.2.2"
     axios: "npm:^1.8.4"
     chalk: "npm:^5.4.1"
     dot-prop: "npm:^9.0.0"
     html-entities: "npm:^2.6.0"
     rss-parser: "npm:^3.13.0"
     sanitize-html: "npm:^2.16.0"
-  checksum: 10c0/735e55fbd37d9e089cd784d12949632d98a7b30fb11044796231d3c7eab6a1982f20fe81ace9bf9d035e1b27ee909b6fc6b8cf6c954f0b42d014b2356d04b454
+  checksum: 10c0/fed2ce315f44b87ebbfc39f1050c7903f125529ef5b7f29f28d47e8563f3cb8faf665969670ab763fbb00b3a30ce63030b2d32690f3996618a8daea4e8c5935b
   languageName: node
   linkType: hard
 
