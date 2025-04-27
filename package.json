@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.1",
-    "@types/node": "^22.14.1",
+    "@types/node": "^22.15.2",
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
     "eslint-import-resolver-typescript": "^4.3.4",
@@ -32,6 +32,6 @@
     "death": "^1.1.0",
     "dotenv": "^16.5.0",
     "env-var": "^7.5.0",
-    "mastofeed": "^1.8.1"
+    "mastofeed": "^1.8.5"
   }
 }
