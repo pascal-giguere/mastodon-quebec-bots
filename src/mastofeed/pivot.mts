@@ -1,8 +1,8 @@
-import { GuillemetsTransform, Mastofeed, UppercaseTransform } from 'mastofeed';
-import env from 'env-var';
-import { MASTODON_INSTANCE_URL, LOG_LEVEL } from '../utils/env.mjs';
+import { GuillemetsTransform, Mastofeed, UppercaseTransform } from "mastofeed";
+import env from "env-var";
+import { MASTODON_INSTANCE_URL, LOG_LEVEL } from "../utils/env.mjs";
 
-const PIVOT_ACCESS_TOKEN = env.get('PIVOT_ACCESS_TOKEN').required().asString();
+const PIVOT_ACCESS_TOKEN = env.get("PIVOT_ACCESS_TOKEN").required().asString();
 
 export const pivotFeed = new Mastofeed({
   mastodon: {
@@ -10,24 +10,24 @@ export const pivotFeed = new Mastofeed({
     accessToken: PIVOT_ACCESS_TOKEN,
   },
   rss: {
-    feedUrl: 'https://pivot.quebec/feed/',
+    feedUrl: "https://pivot.quebec/feed/",
     postDef: {
-      id: { path: 'guid' },
-      kicker: { path: 'categories.1', transforms: [new UppercaseTransform()] },
-      title: { path: 'title' },
-      category: { path: 'categories.0' },
+      id: { path: "guid" },
+      kicker: { path: "categories.1", transforms: [new UppercaseTransform()] },
+      title: { path: "title" },
+      category: { path: "categories.0" },
       description: {
-        path: 'contentSnippet',
-        regex: '^(.+)\\nThe post',
+        path: "contentSnippet",
+        regex: "^(.+)\\nThe post",
         transforms: [new GuillemetsTransform()],
       },
-      author: { path: 'dc:creator' },
-      linkUrl: { path: 'link' },
+      author: { path: "dc:creator" },
+      linkUrl: { path: "link" },
     },
     maxSyncedItems: 8,
   },
   logging: {
     level: LOG_LEVEL,
-    prefix: 'Pivot',
+    prefix: "Pivot",
   },
 });

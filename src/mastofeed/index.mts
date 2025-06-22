@@ -1,10 +1,10 @@
-import { Mastofeed } from 'mastofeed';
-import { laPresseFeed } from './laPresse.mjs';
-import { leDevoirFeed } from './leDevoir.mjs';
-import { radioCanadaFeed } from './radioCanada.mjs';
-import { lActualiteFeed } from './lActualite.mjs';
-import { pivotFeed } from './pivot.mjs';
-import { decrypteursFeed } from './decrypteurs.mjs';
+import { Mastofeed } from "mastofeed";
+import { laPresseFeed } from "./laPresse.mjs";
+import { leDevoirFeed } from "./leDevoir.mjs";
+import { radioCanadaFeed } from "./radioCanada.mjs";
+import { lActualiteFeed } from "./lActualite.mjs";
+import { pivotFeed } from "./pivot.mjs";
+import { decrypteursFeed } from "./decrypteurs.mjs";
 // import { journalDeMontrealFeed } from './journalDeMontreal.mjs';
 
 const allFeeds: Mastofeed[] = [
