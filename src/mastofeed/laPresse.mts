@@ -1,4 +1,4 @@
-import { Mastofeed, UppercaseTransform, MapTransform, PrefixTransform, GuillemetsTransform } from "mastofeed";
+import { Mastofeed, UppercaseTransform, MapTransform, GuillemetsTransform } from "mastofeed";
 import env from "env-var";
 import { MASTODON_INSTANCE_URL, LOG_LEVEL } from "../utils/env.mjs";
 
@@ -39,7 +39,7 @@ export const laPresseFeed = new Mastofeed({
       },
       description: { path: "contentSnippet", transforms: [new GuillemetsTransform()] },
       author: { path: "dc:creator" },
-      linkUrl: { path: "link", transforms: [new PrefixTransform("https://www.lapresse.ca")] },
+      linkUrl: { path: "link" },
     },
     maxSyncedItems: 8,
   },
