@@ -10,7 +10,7 @@ import { decrypteursFeed } from "./decrypteurs.mjs";
 const allFeeds: Mastofeed[] = [
   decrypteursFeed,
   lActualiteFeed,
-  // laPresseFeed,
+  laPresseFeed,
   leDevoirFeed,
   pivotFeed,
   radioCanadaFeed,
