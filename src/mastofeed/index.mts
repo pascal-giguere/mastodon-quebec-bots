@@ -5,14 +5,16 @@ import { radioCanadaFeed } from './radioCanada.mjs';
 import { lActualiteFeed } from './lActualite.mjs';
 import { pivotFeed } from './pivot.mjs';
 import { decrypteursFeed } from './decrypteurs.mjs';
+// import { journalDeMontrealFeed } from './journalDeMontreal.mjs';
 
 const allFeeds: Mastofeed[] = [
   decrypteursFeed,
   lActualiteFeed,
-  laPresseFeed,
+  // laPresseFeed,
   leDevoirFeed,
   pivotFeed,
   radioCanadaFeed,
+  // journalDeMontrealFeed,
 ];
 
 export async function syncAllFeeds(): Promise<void> {
