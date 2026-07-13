@@ -2207,16 +2207,16 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.5"
     eslint-plugin-import: "npm:^2.32.0"
-    mastofeed: "npm:^1.11.0"
+    mastofeed: "npm:^1.11.1"
     prettier: "npm:^3.9.5"
     typescript: "npm:^5.9.3"
     typescript-eslint: "npm:^8.63.0"
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^1.11.0":
-  version: 1.11.0
-  resolution: "mastofeed@npm:1.11.0"
+"mastofeed@npm:^1.11.1":
+  version: 1.11.1
+  resolution: "mastofeed@npm:1.11.1"
   dependencies:
     "@pascal-giguere/megalodon": "npm:^10.2.2"
     axios: "npm:^1.18.1"
@@ -2226,7 +2226,7 @@ __metadata:
     rss-parser: "npm:^3.13.0"
     striptags: "npm:^3.2.0"
     undici: "npm:^8.7.0"
-  checksum: 10c0/848eefe2906eb3a42a193e2cc0d48c391de74e8d86a13f1db9c7e020889b15915c2cd5d390974f6485e2241f87816fe5504cb0a0eb1ccc93333226fd88bf0836
+  checksum: 10c0/bc5ad07580e36c1c2cf85611a6d9fbde068bb58cc2b28f7589eeb3c5253de9d8b59eca8584d0d32bf909c2387c4fc6fd5407a0d0e9c112da1ea392f68aa259d7
   languageName: node
   linkType: hard
 
