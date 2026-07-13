@@ -3,6 +3,7 @@ import env from "env-var";
 import { MASTODON_INSTANCE_URL, LOG_LEVEL } from "../utils/env.mjs";
 
 const LAPRESSE_ACCESS_TOKEN = env.get("LAPRESSE_ACCESS_TOKEN").required().asString();
+const LAPRESSE_PROXY_URL = env.get("LAPRESSE_PROXY_URL").asString();
 
 export const laPresseFeed = new Mastofeed({
   mastodon: {
@@ -11,6 +12,7 @@ export const laPresseFeed = new Mastofeed({
   },
   rss: {
     feedUrl: "https://www.lapresse.ca/manchettes/rss",
+    ...(LAPRESSE_PROXY_URL ? { proxyUrl: LAPRESSE_PROXY_URL } : {}),
     postDef: {
       id: { path: "guid" },
       kicker: { path: "title", regex: "^(.+) \\|", transforms: [new UppercaseTransform()] },

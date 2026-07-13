@@ -2207,16 +2207,16 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.5"
     eslint-plugin-import: "npm:^2.32.0"
-    mastofeed: "npm:^1.10.1"
+    mastofeed: "npm:^1.11.0"
     prettier: "npm:^3.9.5"
     typescript: "npm:^5.9.3"
     typescript-eslint: "npm:^8.63.0"
   languageName: unknown
   linkType: soft
 
-"mastofeed@npm:^1.10.1":
-  version: 1.10.1
-  resolution: "mastofeed@npm:1.10.1"
+"mastofeed@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "mastofeed@npm:1.11.0"
   dependencies:
     "@pascal-giguere/megalodon": "npm:^10.2.2"
     axios: "npm:^1.18.1"
@@ -2225,7 +2225,8 @@ __metadata:
     html-entities: "npm:^2.6.0"
     rss-parser: "npm:^3.13.0"
     striptags: "npm:^3.2.0"
-  checksum: 10c0/2c386929f10b62010d1e52cce3427007d73df87ea473309279d989baa8930cbc72fe2a54424b6eba739e010a8e51bab08c62fe1032105cd2ad008afd1c2fbca8
+    undici: "npm:^8.7.0"
+  checksum: 10c0/848eefe2906eb3a42a193e2cc0d48c391de74e8d86a13f1db9c7e020889b15915c2cd5d390974f6485e2241f87816fe5504cb0a0eb1ccc93333226fd88bf0836
   languageName: node
   linkType: hard
 
@@ -3002,6 +3003,13 @@ __metadata:
   version: 6.21.0
   resolution: "undici-types@npm:6.21.0"
   checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
+  languageName: node
+  linkType: hard
+
+"undici@npm:^8.7.0":
+  version: 8.7.0
+  resolution: "undici@npm:8.7.0"
+  checksum: 10c0/b7e5ecb4de82fa4f905011a77544fe7ba4da06f27167ff99313a7ae2869f3cb233d676dcd085533bc69f36989bc40871f5ae6ea6e4c9b91db92616b9e91b579d
   languageName: node
   linkType: hard
 
